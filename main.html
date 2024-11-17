@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shubham Kokate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <span class="toggle-btn" onclick="toggleMenu()">☰</span>
+      <ul id="nav-links">
+        <li><a href="#section1" onclick="setActive(this)">HOME</a></li>
+        <li><a href="#section2" onclick="setActive(this)">ABOUT</a></li>
+        <li><a href="#section3" onclick="setActive(this)">PROJECTS</a></li>
+        <li><a href="#section4" onclick="setActive(this)">SKILLS</a></li>
+        <li><a href="#section5" onclick="setActive(this)">CERTIFICATE</a></li>
+        <li><a href="#section6" onclick="setActive(this)">CONTACT</a></li>
+      </ul>
+    </div>
+    <section id="section1" class="section heading">
+      <div class="backgroundimg">
+        <h1 class="name">I`m Shubham Kokate</h1>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/shubhamkokate9637/" target="_blank"
+            ><img class="icon" src="./icons/inst.svg"
+          /></a>
+          <a href="https://github.com/Shub1ham" target="_blank"
+            ><img class="icon" src="./icons/git.svg"
+          /></a>
+          <a><img class="icon" src="./icons/link.svg" /></a>
+        </div>
+        <div class="arrow-container">
+          <a href="#section2" class="down-arrow-link"
+            ><img class="icon down-circle" src="./icons/down-circle.svg"
+          /></a>
+        </div>
+      </div>
+    </section>
+    <section id="section2" class="section">
+      <div class="about-section">
+        <h2>About Me</h2>
+        <p>
+          "Hello! I’m Shubham Kokate, a recent graduate with a Bachelor’s degree
+          in Information Technology from Sinhgad Institute of Technology,
+          Lonavala. With a strong foundation in full stack development, Python
+          programming, and SQL, I’ve built a diverse skill set to tackle a
+          variety of technical challenges. My experience includes developing
+          responsive web applications, working with databases, and creating
+          efficient backend solutions. I am highly motivated to keep learning
+          and to contribute effectively in a collaborative environment. As a
+          fresher, I am excited to bring my technical skills, problem-solving
+          mindset, and passion for innovation to a forward-thinking team."
+        </p>
+        <h2>Contact Details</h2>
+        <p>Shubham kokate</p>
+        <p>Pune, India</p>
+        <p>Mobile: (+91)96-3716-5554</p>
+        <p>Email: shubhamkokate5554@gmail.com</p>
+      </div>
+    </section>
+    <section id="section3" class="section">
+      <div class="project-section">
+        <h1>Project</h1>
+        <div class="projects-container">
+          <div class="projects">
+            <div class="project">
+              <h3>Offgrid and Hybrid Charging Station For Electric Vehicle   </h3>
+              <p style="margin-bottom: 5px;">
+                *Integrating AI chatbot support, Google Maps navigation, and online booking/payment systems to
+                enhance user experience</p>
+                <p>
+                *Implemented web-based time-slot allocation for efficient EV charging, reducing wait times and
+                supporting off-grid/hybrid solutions
+              </p>
+              <a href="https://github.com/Shub1ham/Offgrid-and-Hybrid-Charging-Station-For-Electric-Vehicle-" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+              <h3>Project Title 2</h3>
+              <p>
+                
+              </p>
+              <a href="https://example.com" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+              <h3>Project Title 3</h3>
+              <p>
+               
+              </p>
+              <a href="https://example.com" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="section4" class="section">
+      <div class="skill-section">
+        <h1>Skill</h1>
+        <div class="skills-container">
+          <div class="skills">
+            <div class="skill">
+              <h3>Programming Languages</h3>
+              <ul>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+            <div class="skill">
+              <h3>Frameworks</h3>
+              <ul>
+                <li>Django</li>
+                <li>React</li>
+                <li>Node.js</li>
+              </ul>
+            </div>
+            <div class="skill">
+              <h3>Databases</h3>
+              <ul>
+                <li>SQL</li>
+                <li>MongoDB</li>
+              </ul>
+            </div>
+            <div class="skill">
+              <h3>Tools and Technologies</h3>
+              <ul>
+                <li>Git</li>
+                <li>RESTful APIs</li>
+              </ul>
+            </div>
+            <div class="skill">
+              <h3>Soft Skills</h3>
+              <ul>
+                <li>Problem-solving</li>
+                <li>Team collaboration</li>
+                <li>Time management</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="section5" class="section">
+      <div class="certificate-section">
+        <h1>Certificate</h1>
+        <div class="certificate-block">
+          <div class="certificate-container">
+            <div class="certificate-card">
+              <a
+                href="Python for Data Science nptel_page-0001.jpg"
+                target="_blank"
+              >
+                <img
+                  class="blurred-image"
+                  src="Python for Data Science nptel_page-0001.jpg"
+                  alt="Certificate 1"
+                />
+                <div class="certificate-info">
+                  <h3>Get Started with Python</h3>
+                  <p>Issued by NPTEL</p>
+                  <p>Date: july 2024</p>
+                </div>
+              </a>
+            </div>
+            <div class="certificate-card">
+              <img
+                class="blurred-image"
+                src="certificate2.jpg"
+                alt="Certificate 2"
+              />
+              <div class="certificate-info">
+                <h3></h3>
+                <p></p>
+                <p></p>
+              </div>
+            </div>
+            <!-- Add more certificates as needed -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="section6" class="section">
+      <div class="resumesection">
+        <div class="download-button">
+          <a
+            href="resume.pdf"
+            download="Shubham_Kokate_Resume"
+            class="btn-download"
+          >
+            <i class="fas fa-download"></i> Download Resume
+          </a>
+        </div>
+      </div>
+      <div class="contactsection">
+        <div class="contact">
+          <div>
+            <img src="/icons/email.svg" />
+            <h1>Address and Phone</h1>
+            <p>Shubham kokate</p>
+            <p>Pune, India</p>
+            <p>shubhamkokate5554@gmail.com</p>
+          </div>
+          <div class="contactgit">
+            <h1>Git</h1>
+            <a href="https://github.com/Shub1ham" target="_blank"
+              >https://github.com/Shub1ham</a
+            >
+          </div>
+        </div>
+        <div class="copyright">
+          <footer>
+            <p>&copy; 2024 Shubham Kokate. All rights reserved.</p>
+          </footer>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      // Toggle menu visibility on mobile devices
+      function toggleMenu() {
+        const navLinks = document.getElementById("nav-links");
+        navLinks.classList.toggle("active");
+      }
+
+      // Set active class on the clicked link
+      function setActive(element) {
+        const links = document.querySelectorAll(".navbar ul li a");
+        links.forEach((link) => link.classList.remove("active"));
+        element.classList.add("active");
+      }
+
+      document
+        .querySelector(".down-arrow-link")
+        .addEventListener("click", function (event) {
+          event.preventDefault(); // Prevent default anchor behavior
+          const targetSection = document.querySelector("#section2");
+          window.scrollTo({
+            top: targetSection.offsetTop,
+            behavior: "smooth",
+          });
+        });
+    </script>
+  </body>
+</html>
